@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="when_needed" table="x_58872_needit_needit">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="current_phone" table="x_58872_needit_needit">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -12,10 +12,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>2</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>When needed</column_label>
+        <column_label>Current Phone</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,12 +28,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>when_needed</element>
+        <element>current_phone</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date_time</internal_type>
+        <internal_type display_value="">phone_number_e164</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_58872_needit_needit</name>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-09 01:13:27</sys_created_on>
-        <sys_id>c77d4b15eb20230005863c4fea887eed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>When needed</sys_name>
+        <sys_created_on>2018-09-14 04:06:49</sys_created_on>
+        <sys_id>ef689b1deb20230005863c4fea887e64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Current Phone</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_needit_when_needed</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-14 03:17:45</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_58872_needit_needit_current_phone</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 04:26:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

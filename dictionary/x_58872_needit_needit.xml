@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="4" type="collection">
         <element label="Action type" max_length="32" name="action_type" reference="sys_hub_action_type_definition" type="reference"/>
+        <element choice="2" label="Current Phone" max_length="40" name="current_phone" type="phone_number_e164">
+            <choice/>
+        </element>
+        <element label="Legal IP (Validated IPV4, IPV6)" max_length="40" name="needit_ip_addr_1" type="ip_addr"/>
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element choice="3" default="HR" label="Request type" max_length="30" name="request_type" type="choice">
             <choice>
